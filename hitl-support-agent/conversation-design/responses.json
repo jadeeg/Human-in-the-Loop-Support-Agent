@@ -1,0 +1,26 @@
+{
+  "_README": "Owned by the conversation designer. {placeholders} are filled by the code. Keep them in each message that lists them.",
+
+  "ask_order": "Sure, I can help with that. What's your order number?",
+  "ask_email": "Thanks. What email address did you use for the order?",
+  "verification_failed": "I couldn't match that order number with that email. Could you double-check both?",
+  "out_of_scope": "I can help with cancelling an order, requesting a refund, or tracking a shipment. What would you like to do?",
+  "thanks": "You're welcome. Is there anything else I can help you with?",
+
+  "confirm_cancel": "Order #{order_id} ({items}) is eligible for cancellation, and {amount} would go back to your original payment method. Would you like me to submit the cancellation request?",
+  "confirm_refund": "Order #{order_id} is eligible for a refund of up to {amount}. Would you like me to submit the refund request?",
+  "denied": "I can't do that for order #{order_id}. {reason}",
+  "order_status": "Order #{order_id} is currently {status}.",
+  "tracking": "Order #{order_id} is {status}. {tracking_line}",
+
+  "approval_pending": "I've prepared the {action_label} for order #{order_id}. A support specialist needs to approve it before it's completed. I'll update you here as soon as there's a decision.",
+  "approved_cancel": "Your order #{order_id} has been cancelled. {amount} will return to your original payment method in 5 to 7 business days.",
+  "approved_refund": "Your refund of {amount} for order #{order_id} has been approved. It will return to your original payment method in 5 to 7 business days.",
+  "rejected": "A specialist reviewed your {action_label} for order #{order_id} and couldn't approve it. {reason_line}I can connect you with a person if you'd like to talk it through.",
+  "expired": "Your {action_label} for order #{order_id} wasn't reviewed in time, so I've closed it. Would you like me to submit it again?",
+  "failed": "I couldn't complete the {action_label} for order #{order_id} because something changed on the order. A specialist will follow up with you.",
+
+  "escalated": "I've passed this to a support specialist. They'll follow up with you.",
+  "llm_error": "I'm having trouble right now. A support specialist will follow up with you.",
+  "max_steps": "I wasn't able to finish that. I've asked a support specialist to follow up with you."
+}

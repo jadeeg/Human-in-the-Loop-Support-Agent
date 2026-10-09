@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+backend/data/
+evals/results/*.json
+node_modules/
+frontend/dist/
+.env
